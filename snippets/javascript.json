@@ -1,0 +1,357 @@
+{
+	// Place your snippets for javascript here. Each snippet is defined under a snippet name and has a prefix, body and 
+	// description. The prefix is what is used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
+	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. Placeholders with the 
+	// same ids are connected.
+	// Example:
+	/*"Comment title": {
+		"prefix": "t--",
+		"body": [
+			"// ----------------------------------------",
+			"//           | $0 |",
+			"// ----------------------------------------"
+		]
+	},*/
+	"Comment title (S)": {
+		"prefix": "t--",
+		"body": [
+			"// *** $0 ***"
+		]
+	},
+	"Comment title (M)": {
+		"prefix": "t==",
+		"body": [
+			"/*** $1 ***",
+			"    /-----------------------------------------------------------------------------\\",
+			"        $0",
+			"    \\----------------------------------------------------------------------------*/"
+		]
+	},
+
+	"Hypothesis (S)": {
+		"prefix": "l--",
+		"body": [
+			"// |LET'S SAY|: $0"
+		]
+	},"Hypothesis (M)": {
+		"prefix": "l==",
+		"body": [
+			"/* |LET'S SAY|: $1",
+			"    /-----------------------------------------------------------------------------\\",
+			"        $0",
+			"    \\----------------------------------------------------------------------------*/"
+		]
+	},
+
+	"Question (S)": {
+		"prefix": "q--",
+		"body": [
+			"// |QUESTION|: $0"
+		]
+	},
+	"Question (M)": {
+		"prefix": "q==",
+		"body": [
+			"/* |QUESTION|: $1",
+			"    /-----------------------------------------------------------------------------\\",
+			"        $0",
+			"    \\----------------------------------------------------------------------------*/"
+		]
+	},
+	"Question and Answer (M)": {
+		"prefix": "qa==",
+		"body": [
+			"/* |QUESTION|: $1",
+			"    $2",
+			"   --------------------------------------------------",
+			"   |ANSWER|:",
+			"    $0",
+			"\\--------------------------------------------------------------------------------*/"
+		]
+	},
+
+	
+	"Notice (S)": {
+		"prefix": "n--",
+		"body": [
+			"// |NOTICE|: $0"
+		]
+	},
+	"Notice (M)": {
+		"prefix": "n==",
+		"body": [
+			"/* |NOTICE|: $1",
+			"    /-----------------------------------------------------------------------------\\",
+			"        $0",
+			"    \\----------------------------------------------------------------------------*/"
+		]
+	},
+
+	"Keywords (S)": {
+		"prefix": "k--",
+		"body": [
+			"// |KEYWORDS|: $0"
+		]
+	},
+	"Keywords (M)": {
+		"prefix": "k==",
+		"body": [
+			"/* |KEYWORDS|: $1",
+			"    /-----------------------------------------------------------------------------\\",
+			"        $0",
+			"    \\----------------------------------------------------------------------------*/"
+		]
+	},
+
+	"Info (S)": {
+		"prefix": "i--",
+		"body": [
+			"// |INFO|: $0"
+		]
+	},
+	"Info (M)": {
+		"prefix": "i==",
+		"body": [
+			"/* |INFO|: $1",
+			"    /-----------------------------------------------------------------------------\\",
+			"        $0",
+			"    \\----------------------------------------------------------------------------*/"
+		]
+	},
+
+	"Problem (S)": {
+		"prefix": "p--",
+		"body": [
+			"// |PROBLEM|: $0"
+		]
+	},
+	"Problem (M)": {
+		"prefix": "p==",
+		"body": [
+			"/* |PROBLEM|: $1",
+			"    /-----------------------------------------------------------------------------\\",
+			"        $0",
+			"    \\----------------------------------------------------------------------------*/"
+		]
+	},
+
+	"Solution (S)": {
+		"prefix": "so--",
+		"body": [
+			"// |SOLUTION|: $0"
+		]
+	},
+	"Solution (M)": {
+		"prefix": "so==",
+		"body": [
+			"/* |SOLUTION|: $1",
+			"    /-----------------------------------------------------------------------------\\",
+			"        $0",
+			"    \\----------------------------------------------------------------------------*/"
+		]
+	},
+
+	"Comment separator (S) [S]": {
+		"prefix": "s--",
+		"body": [
+			"// ---------------------------------------- "
+		],
+	},
+	"Comment separator up (S) [S]": {
+		"prefix": "su--",
+		"body": [
+			"// ----------------------------------------\\ "
+		],
+	},
+	"Comment separator down (S) [S]": {
+		"prefix": "sd--",
+		"body": [
+			"// ----------------------------------------/ "
+		],
+	},
+	"Comment separator (M) [S]": {
+		"prefix": "s==",
+		"body": [
+			"/* ---------------------------------------- */"
+		],
+	},
+	"Comment separator (S) [L]": {
+		"prefix": "sl--",
+		"body": [
+			"// -------------------------------------------------------------------------------- "
+		],
+	},
+	"Comment separator up (S) [L]": {
+		"prefix": "slu--",
+		"body": [
+			"// --------------------------------------------------------------------------------\\ "
+		],
+	},
+	"Comment separator down (S) [L]": {
+		"prefix": "sld--",
+		"body": [
+			"// --------------------------------------------------------------------------------/ "
+		],
+	},
+	"Comment separator (M) [L]": {
+		"prefix": "sl==",
+		"body": [
+			"/* -------------------------------------------------------------------------------- */"
+		],
+	},
+	"Multi-line comment": {
+		"prefix": "mc",
+		"body": [
+			"/* $0 */"
+		],
+	},
+	"Multi-line comment with separators (S) [S]": {
+		"prefix": "c--",
+		"body": [
+			"// ---------------------------------------- ",
+			"// $0",
+			"// ---------------------------------------- "
+		],
+	},
+	"Multi-line comment with separators (M) [S]": {
+		"prefix": "c==",
+		"body": [
+			"/*----------------------------------------\\",
+			"   $0",
+			"\\----------------------------------------*/"
+		],
+	},
+	"Multi-line comment with separators (S) [L]": {
+		"prefix": "cl--",
+		"body": [
+			"// -------------------------------------------------------------------------------- ",
+			"// $0",
+			"// -------------------------------------------------------------------------------- "
+		],
+	},
+	"Multi-line comment with separators (M) [L]": {
+		"prefix": "cl==",
+		"body": [
+			"/*--------------------------------------------------------------------------------\\",
+			"   $0",
+			"\\--------------------------------------------------------------------------------*/"
+		],
+	},
+	"Print to console": {
+		"prefix": "lg",
+		"body": [
+			"console.log($0);"
+		],
+		"description": "Log output to console"
+	},
+	"Arrow function": {
+		"prefix": "arr",
+		"body": [
+			"() => {$0}"
+		]
+	},
+	"OnPress boilerplate": {
+		"prefix": "onp",
+		"body": [
+			"onPress={() => {$0}}"
+		]
+	},
+	"Styles boilerplate": {
+		"prefix": "st",
+		"body": [
+			"style={styles.${1:styleName}}"
+		],
+		"description": "Write cumbersome style boilerplate easily"
+	},
+	"Faster import (generic)": {
+		"prefix": "imp",
+		"body": [
+			"import {} from \"$0\";"
+		],
+		"description": "Faster Imports"
+	},
+	"Import React": {
+		"prefix": "react",
+		"body": [
+			"import React from \"react\";"
+		],
+		"description": "Faster Imports"
+	},
+	"Faster import (react-native)": {
+		"prefix": "rena",
+		"body": [
+			"import {$0} from \"react-native\";"
+		],
+		"description": "Faster Imports"
+	},
+	"Faster import (redux)": {
+		"prefix": "redux",
+		"body": [
+			"import {$0} from \"${1|redux,react-redux,redux-thunk|}\";"
+		],
+		"description": "Faster Imports"
+	},
+	"Faster import (navigation)": {
+		"prefix": "nav",
+		"body": [
+			"import {$0} from \"${1|react-navigation,react-navigation-stack,react-navigation-tabs,react-navigation-drawer|}\";"
+		],
+		"description": "Faster Imports"
+	},
+	"New React-Native Component boilerplate": {
+		"prefix": "component",
+		"body": [
+			"import React from \"react\";",
+			"import { View, Text, StyleSheet } from \"react-native\";",
+			"",
+			"const ${2:ComponentName} = props => {",
+			"  return (",
+			"    <View>",
+			"      <Text>${2:ComponentName}</Text>",
+			"    </View>",
+			"  );",
+			"};",
+			"",
+			"const styles = StyleSheet.create({});",
+			"",
+			"export default ${2:ComponentName};"
+		],
+		"description": "For making basic components"
+	},
+	"New React Component boilerplate": {
+		"prefix": "rcmp",
+		"body": [
+			"import React from \"react\";",
+			"",
+			"const ${2:ComponentName} = props => {",
+			"  return (",
+			"    <div>",
+			"      <p>${2:ComponentName}</p>",
+			"    </div>",
+			"  );",
+			"};",
+			"",
+			"export default ${2:ComponentName};"
+		],
+		"description": "For making basic components"
+	},
+	"New React class Component boilerplate": {
+		"prefix": "rccmp",
+		"body": [
+			"import React, {Component} from \"react\";",
+			"",
+			"class ${2:ComponentName} extends Component {",
+			"  render() {",
+			"    return (",
+			"      <div>",
+			"        <p>${2:ComponentName}</p>",
+			"      </div>",
+			"    );",
+			"  }",
+			"}",
+			"",
+			"export default ${2:ComponentName};"
+		],
+		"description": "For making basic components"
+	}
+}
